@@ -14,6 +14,7 @@ namespace Masterpiece.iOS
 
         public BrowseViewController(IntPtr handle) : base(handle)
         {
+            
         }
 
         public override void ViewDidLoad()

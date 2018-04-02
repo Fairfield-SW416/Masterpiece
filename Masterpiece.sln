@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Masterpiece.iOS", "iOS\Mast
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Masterpiece.Droid", "Droid\Masterpiece.Droid.csproj", "{84571F92-395A-4D34-8C88-3005C7D0E254}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Localization", "Localization\Localization.csproj", "{8D64DAC6-0567-4782-8785-5110712C07AB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|iPhoneSimulator = Debug|iPhoneSimulator
@@ -41,5 +43,17 @@ Global
 		{84571F92-395A-4D34-8C88-3005C7D0E254}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84571F92-395A-4D34-8C88-3005C7D0E254}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84571F92-395A-4D34-8C88-3005C7D0E254}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D64DAC6-0567-4782-8785-5110712C07AB}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{8D64DAC6-0567-4782-8785-5110712C07AB}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{8D64DAC6-0567-4782-8785-5110712C07AB}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{8D64DAC6-0567-4782-8785-5110712C07AB}.Release|iPhone.Build.0 = Release|Any CPU
+		{8D64DAC6-0567-4782-8785-5110712C07AB}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{8D64DAC6-0567-4782-8785-5110712C07AB}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{8D64DAC6-0567-4782-8785-5110712C07AB}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{8D64DAC6-0567-4782-8785-5110712C07AB}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{8D64DAC6-0567-4782-8785-5110712C07AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D64DAC6-0567-4782-8785-5110712C07AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D64DAC6-0567-4782-8785-5110712C07AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D64DAC6-0567-4782-8785-5110712C07AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

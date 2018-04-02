@@ -147,6 +147,12 @@
     <InterfaceDefinition Include="LaunchScreen.storyboard" />
     <InterfaceDefinition Include="Main.storyboard" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Localization\Localization.csproj">
+      <Project>{8D64DAC6-0567-4782-8785-5110712C07AB}</Project>
+      <Name>Localization</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="..\Masterpiece\Masterpiece.projitems" Label="Shared" Condition="Exists('..\Masterpiece\Masterpiece.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

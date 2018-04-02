@@ -13,7 +13,7 @@ namespace Masterpiece
 
         public ItemsViewModel()
         {
-            Title = "Browse";
+            Title = Localization.Language.BrowseTitle;
             Items = new ObservableCollection<Item>();
             LoadItemsCommand = new Command(async () => await ExecuteLoadItemsCommand());
             AddItemCommand = new Command<Item>(async (Item item) => await AddItem(item));
