@@ -1,4 +1,5 @@
 ﻿using System;
+using Masterpiece.Services;
 
 namespace Masterpiece
 {
@@ -13,6 +14,9 @@ namespace Masterpiece
                 ServiceLocator.Instance.Register<IDataStore<Item>, MockDataStore>();
             else
                 ServiceLocator.Instance.Register<IDataStore<Item>, CloudDataStore>();
+
+            var twitterService = new TwitterService();
+
         }
     }
 }
