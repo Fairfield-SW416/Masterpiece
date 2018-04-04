@@ -192,6 +192,10 @@
       <Project>{8D64DAC6-0567-4782-8785-5110712C07AB}</Project>
       <Name>Localization</Name>
     </ProjectReference>
+    <ProjectReference Include="..\JSONStorage\JSONStorage.csproj">
+      <Project>{5C9876C0-195A-40A0-9A27-23607041743C}</Project>
+      <Name>JSONStorage</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="..\Masterpiece\Masterpiece.projitems" Label="Shared" Condition="Exists('..\Masterpiece\Masterpiece.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />

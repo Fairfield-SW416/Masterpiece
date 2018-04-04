@@ -19,19 +19,6 @@ namespace Masterpiece.iOS
         public override bool FinishedLaunching(UIApplication application, NSDictionary launchOptions)
         {
             App.Initialize();
-
-            var storer = new Masterpiece.iOS.Services.Storer();
-            var jsonStorer = new JSONStorage.FileStore<Item>(storer);
-
-            var items = jsonStorer.loadItems();
-
-            items.Add(new Item
-            {
-                Id = "PJK" + items.Count,
-                Text = "This is some text",
-                Description = "This is a longer description of this Item."
-            });
-
             return true;
         }
 

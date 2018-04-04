@@ -17,6 +17,19 @@ namespace Masterpiece
 
             //var twitterService = new TwitterService();
 
+            var storer = new Masterpiece.Services.Storer();
+            var jsonStorer = new JSONStorage.FileStore<Item>(storer);
+
+            var items = jsonStorer.loadItems();
+
+            items.Add(new Item
+            {
+                Id = "PJK" + items.Count,
+                Text = "This is some text",
+                Description = "This is a longer description of this Item."
+            });
+
+            jsonStorer.storeItems();
         }
     }
 }

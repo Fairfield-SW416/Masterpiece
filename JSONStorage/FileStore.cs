@@ -7,8 +7,8 @@ namespace JSONStorage
 {
     public interface IContentProvider
     {
-        string LoadContent(string relativePath);
-        void StoreContent(string relativePath, string jsonString);
+        string LoadContent(string filname);
+        void StoreContent(string filename, string jsonString);
     }
 
     public class FileStore<T>

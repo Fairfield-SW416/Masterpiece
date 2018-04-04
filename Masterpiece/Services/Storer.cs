@@ -2,7 +2,7 @@
 using System.IO;
 using JSONStorage;
 
-namespace Masterpiece.iOS.Services
+namespace Masterpiece.Services
 {
     public class Storer : IContentProvider
     {

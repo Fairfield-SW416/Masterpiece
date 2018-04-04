@@ -160,7 +160,6 @@
     </Compile>
     <Compile Include="AppDelegate.cs" />
     <Compile Include="Main.cs" />
-    <Compile Include="Services\Storer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Entitlements.plist" />
@@ -180,9 +179,6 @@
       <Project>{5C9876C0-195A-40A0-9A27-23607041743C}</Project>
       <Name>JSONStorage</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Services\" />
   </ItemGroup>
   <Import Project="..\Masterpiece\Masterpiece.projitems" Label="Shared" Condition="Exists('..\Masterpiece\Masterpiece.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
