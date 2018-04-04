@@ -114,11 +114,11 @@
       <HintPath>..\packages\Rx-PlatformServices.2.2.5\lib\portable-windows8+net45+wp8\System.Reactive.PlatformServices.dll</HintPath>
     </Reference>
     <Reference Include="System.IO.Compression" />
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\netstandard1.3\Newtonsoft.Json.dll</HintPath>
-    </Reference>
     <Reference Include="LinqToTwitter.xamarin">
       <HintPath>..\packages\linqtotwitter.4.2.1\lib\portable-net45+win8+wpa81\LinqToTwitter.xamarin.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\netstandard2.0\Newtonsoft.Json.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -160,6 +160,7 @@
     </Compile>
     <Compile Include="AppDelegate.cs" />
     <Compile Include="Main.cs" />
+    <Compile Include="Services\Storer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Entitlements.plist" />
@@ -175,6 +176,13 @@
       <Project>{8D64DAC6-0567-4782-8785-5110712C07AB}</Project>
       <Name>Localization</Name>
     </ProjectReference>
+    <ProjectReference Include="..\JSONStorage\JSONStorage.csproj">
+      <Project>{5C9876C0-195A-40A0-9A27-23607041743C}</Project>
+      <Name>JSONStorage</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Services\" />
   </ItemGroup>
   <Import Project="..\Masterpiece\Masterpiece.projitems" Label="Shared" Condition="Exists('..\Masterpiece\Masterpiece.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />

@@ -15,7 +15,7 @@ namespace Masterpiece
             else
                 ServiceLocator.Instance.Register<IDataStore<Item>, CloudDataStore>();
 
-            var twitterService = new TwitterService();
+            //var twitterService = new TwitterService();
 
         }
     }

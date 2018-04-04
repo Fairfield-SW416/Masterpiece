@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Masterpiece.Droid", "Droid\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Localization", "Localization\Localization.csproj", "{8D64DAC6-0567-4782-8785-5110712C07AB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSONStorage", "JSONStorage\JSONStorage.csproj", "{5C9876C0-195A-40A0-9A27-23607041743C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|iPhoneSimulator = Debug|iPhoneSimulator
@@ -55,5 +57,17 @@ Global
 		{8D64DAC6-0567-4782-8785-5110712C07AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D64DAC6-0567-4782-8785-5110712C07AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D64DAC6-0567-4782-8785-5110712C07AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C9876C0-195A-40A0-9A27-23607041743C}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{5C9876C0-195A-40A0-9A27-23607041743C}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{5C9876C0-195A-40A0-9A27-23607041743C}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{5C9876C0-195A-40A0-9A27-23607041743C}.Release|iPhone.Build.0 = Release|Any CPU
+		{5C9876C0-195A-40A0-9A27-23607041743C}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{5C9876C0-195A-40A0-9A27-23607041743C}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{5C9876C0-195A-40A0-9A27-23607041743C}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{5C9876C0-195A-40A0-9A27-23607041743C}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{5C9876C0-195A-40A0-9A27-23607041743C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C9876C0-195A-40A0-9A27-23607041743C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C9876C0-195A-40A0-9A27-23607041743C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C9876C0-195A-40A0-9A27-23607041743C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
