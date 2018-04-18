@@ -52,5 +52,11 @@ namespace Localization {
                 return ResourceManager.GetString("BrowseTitle", resourceCulture);
             }
         }
+        
+        public static string AboutTitle {
+            get {
+                return ResourceManager.GetString("AboutTitle", resourceCulture);
+            }
+        }
     }
 }

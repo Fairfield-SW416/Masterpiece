@@ -1,4 +1,6 @@
-﻿using System.Windows.Input;
+﻿using System.Globalization;
+using System.Threading;
+using System.Windows.Input;
 
 namespace Masterpiece
 {
@@ -6,7 +8,7 @@ namespace Masterpiece
     {
         public AboutViewModel()
         {
-            Title = "About";
+            Title = Localization.Language.AboutTitle;
 
             OpenWebCommand = new Command(() => Plugin.Share.CrossShare.Current.OpenBrowser("https://xamarin.com/platform"));
         }

@@ -20,9 +20,9 @@ namespace Masterpiece.Services
             var credentialStore = new SingleUserInMemoryCredentialStore
             {
                 ConsumerKey = "scS2r4sCihglH0IGOE9mtp9vN",
-                ConsumerSecret = "NOT IN REPO",
+                ConsumerSecret = "Lg4jPGNhJ4uivCR0m36AUztexZ2EZWxfh8pGEO3IQQJwDWRQlF",
                 AccessToken = "24472612-twnsStRgRLtTf0Q4hRj8AsOUxXRN2YFrSwqQUmNly",
-                AccessTokenSecret = "NOT IN REPO"
+                AccessTokenSecret = "qiaJOmhWxh5PcTZAdkjLQNzP5DFu78DZtD9e7PEGQqK9q"
             };
 
             var auth = new SingleUserAuthorizer
@@ -64,7 +64,7 @@ namespace Masterpiece.Services
                 .ToList();
 
             Console.WriteLine("\nTweets for " + twitterCtx.User.ToString() + "\n");
-            foreach (var tweet in tweets)
+            foreach (Status tweet in tweets)
             {
                 Console.WriteLine(
                     "Friend: " + tweet.User.ScreenName +

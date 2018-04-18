@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Globalization;
+using System.Threading;
 using Masterpiece.Services;
 
 namespace Masterpiece
@@ -10,6 +12,11 @@ namespace Masterpiece
 
         public static void Initialize()
         {
+            var culture = new CultureInfo("es");
+            Thread.CurrentThread.CurrentCulture = culture;
+            CultureInfo.DefaultThreadCurrentCulture = culture;
+            Localization.Language.Culture = culture;
+
             if (UseMockDataStore)
                 ServiceLocator.Instance.Register<IDataStore<Item>, MockDataStore>();
             else

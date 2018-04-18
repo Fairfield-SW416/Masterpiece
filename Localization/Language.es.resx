@@ -15,5 +15,10 @@
 <data name="BrowseTitle" xml:space="preserve">
     <value>Navegar</value>
     <comment>Title for the First tab</comment>
+</data>
+<data name="AboutTitle" xml:space="preserve">
+    <value>About (ES)</value>
+    <comment>Title for the Second tab</comment>
 </data>    
+    
 </root>
